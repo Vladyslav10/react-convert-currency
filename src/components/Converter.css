@@ -1,0 +1,17 @@
+.converter {
+    width: 100%;
+    padding: 70px 15px; 
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.converter__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px 0px 45px 0px;
+}
+
+.converter__group >*:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
